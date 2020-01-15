@@ -1,0 +1,273 @@
+a, a:hover {
+	text-decoration: none;
+	color: #707070;
+}
+
+.header-social {
+	background: #FBFCFD 0% 0% no-repeat padding-box;
+	height: 50px;
+	border-bottom: 0.1rem solid #E7EAEF;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 10vw;
+	color: #707070;
+}
+
+.social-box {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	margin-left: 5px;
+}
+
+.header-logo {
+	background: #FBFCFD 0% 0% no-repeat padding-box;
+	height: 80px;
+	border-bottom: 0.1rem solid #E7EAEF;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	padding-left: 10vw;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.content h1 {
+	font: Bold 3em Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+}
+
+.content h2 {
+	margin-top: 20px;
+	font: Medium 1em Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+}
+
+.content .title {
+	display: flex;
+	width: 80vw;
+	font: Light 0.5em Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+blue {
+	color: #3C9DD5;
+}
+
+.content p {
+	font: Medium 1.1em Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+}
+
+.first-line {
+	padding-top: 10px;
+}
+
+.first-line strong {
+	color: #8BBD4F;
+}
+
+.p-1 {
+	font-size: 1rem;
+}
+
+.p-2 {
+	flex: 1;
+}
+
+.layerBlue {
+	flex-direction: column;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 380px;
+	background: #3C9DD5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: white;
+}
+
+.layerBlue h1 {
+	font: Bold 2.5rem Gilroy ☞;
+	letter-spacing: 0;
+}
+
+.layerBlue p {
+	font-size: 1rem;
+	letter-spacing: 0;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.layerWhite {
+	flex-direction: row;
+	height: 300px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: #4C6173;
+}
+
+.board {
+	padding-left: 8vw;
+}
+
+.layerWhite .p-2 {
+	margin-left: 50px;
+}
+
+.layerWhite p {
+	font-size: 1rem;
+	letter-spacing: 0;
+}
+
+.layerForm {
+	flex-direction: column;
+	height: 300px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #364E62 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.layerForm h1 {
+	align-self: flex-start;
+	padding-left: 14.5vw;
+	font: Bold 2.5rem Gilroy ☞;
+	letter-spacing: 0;
+	color: white;
+}
+
+.layerForm p {
+	color: white;
+	font-size: 1rem;
+	letter-spacing: 0;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.forms {
+	display: flex;
+	width: 100%;
+}
+
+.input-name {
+	padding-left: 14.5vw;
+}
+
+.input-email {
+	padding-left: 20px;
+}
+
+.nome {
+	color: white;
+	padding-left: 14.5vw;
+}
+
+.email {
+	color: white;
+	padding-left: 120px;
+}
+
+.botao {
+	padding-left: 20px;
+}
+
+#nome {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	height: 40px;
+}
+
+#email {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	height: 40px;
+}
+
+#botao {
+	background: #8BBD4F 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	color: white;
+	height: 40px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 10vw;
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.scopo {
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+	width: 100%;
+	padding-left: 10vw;
+}
+
+.logo-scopo {
+	padding-left: 10px
+}
+
+@media (max-width: 1000px) {
+	.board {
+		width: 40vw;
+	}
+	.layerWhite h1 {
+		font-size: 2rem;
+	}
+	.layerWhite p {
+		font-size: 0.8rem;
+	}
+	.layerForm h1 {
+		padding-left: 10vw;
+	}
+	.layerForm p {
+		width: 80%;
+	}
+	.input-name {
+		padding-left: 10vw;
+	}
+	.nome {
+		padding-left: 10vw;
+	}
+}

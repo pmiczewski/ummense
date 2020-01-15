@@ -1,0 +1,278 @@
+a, a:hover {
+	text-decoration: none;
+	color: #707070;
+}
+
+.header-social {
+	background: #FBFCFD 0% 0% no-repeat padding-box;
+	height: 50px;
+	border-bottom: 0.1rem solid #E7EAEF;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 3vw;
+	color: #707070;
+}
+
+.social-box {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.header-logo {
+	background: #FBFCFD 0% 0% no-repeat padding-box;
+	height: 80px;
+	border-bottom: 0.1rem solid #E7EAEF;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	padding-left: 3vw;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.content h1 {
+	font: Bold 1.5em Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+}
+
+.content h2 {
+	margin-top: 20px;
+	font: Medium Gilroy ☞;
+	font-size: 1.5em;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+}
+
+.content .title {
+	align-items: stretch;
+	display: flex;
+	width: 95vw;
+	font: Light Gilroy ☞;
+	font-size: 0.8em;
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+blue {
+	color: #3C9DD5;
+}
+
+.content p {
+	font: Medium Gilroy ☞;
+	letter-spacing: 0;
+	color: #404F61;
+	font-size: 0.8rem;
+	opacity: 1;
+}
+
+.first-line {
+	padding-top: 10px;
+}
+
+.first-line strong {
+	color: #8BBD4F;
+}
+
+.p-1 {
+	font-size: 1rem;
+}
+
+.p-2 {
+	flex: 1;
+	font-size: 0.6em;
+}
+
+.layerBlue {
+	flex-direction: column;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 250px;
+	background: #3C9DD5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: white;
+}
+
+.layerBlue h1 {
+	font: Bold 1.2rem Gilroy ☞;
+	letter-spacing: 0;
+}
+
+.layerBlue p {
+	font-size: 0.6rem;
+	letter-spacing: 0;
+	margin-top: 5px;
+	width: 95vw;
+}
+
+.layerWhite {
+	flex-direction: row;
+	height: 300px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	color: #4C6173;
+}
+
+.board {
+	padding-left: 0vw;
+	width: 35vw;
+}
+
+.layerWhite .p-2 {
+	margin-left: 10px;
+}
+
+.layerWhite h1 {
+	font-size: 1rem;
+}
+
+.layerWhite p {
+	font-size: 0.6rem;
+	letter-spacing: 0;
+}
+
+.layerForm {
+	flex-direction: column;
+	height: 300px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #364E62 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.layerForm h1 {
+	align-self: flex-start;
+	padding-left: 1vw;
+	font: Bold 1.2rem Gilroy ☞;
+	letter-spacing: 0;
+	color: white;
+}
+
+.layerForm p {
+	color: white;
+	font-size: 0.6rem;
+	letter-spacing: 0;
+	margin-top: 2px;
+	width: 98%;
+}
+
+.forms {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.input-name {
+	padding-left: 1vw;
+}
+
+.input-email {
+	padding-left: 1vw;
+}
+
+.nome {
+	color: white;
+	padding-left: 1vw;
+	font-size: 0.6rem;
+	width: 122px;
+}
+
+.email {
+	color: white;
+	font-size: 0.6rem;
+	flex: 2;
+	padding-left: 2vw;
+}
+
+.botao {
+	flex: 3;
+	font-size: 0.6rem;
+	padding-left: 1vw;
+}
+
+#nome {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	height: 40px;
+	font-size: 0.6rem;
+	width: 122px;
+}
+
+#email {
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	height: 40px;
+	font-size: 0.6rem;
+	width: 122px;
+}
+
+#botao {
+	background: #8BBD4F 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 4px;
+	opacity: 1;
+	color: white;
+	font-size: 0.5rem;
+	height: 40px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-right: 3vw;
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+		overflow-x: hidden;
+}
+
+.scopo {
+	letter-spacing: 0;
+	color: #404F61;
+	opacity: 1;
+	width: 80%;
+	font-size: 0.6rem;
+}
+
+.logo-scopo {
+	width: 40%;
+	margin-left: 2px;
+}
+
+.footer .icon {
+	width: 20%;
+	margin-left: 1px;
+}
+
+.header-social .icon {
+	margin-left: 5px;
+}
